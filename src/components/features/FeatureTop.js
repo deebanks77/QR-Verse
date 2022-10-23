@@ -75,7 +75,7 @@ function FeatureTop(props) {
             className="w-[40px] h-[40px] desktop:w-[initial] desktop:h-[initial]"
           />
           <div className="font-[poppins]">
-            <p className="text-[12px] desktop:text-[16px] font-bold text-[#3734A9] bg-indigo-200 px-1 py-1 flex items-center rounded-[30px]">
+            <p className="text-[12px] desktop:text-[16px] font-bold text-[#3734A9] bg-indigo-200 px-1 py-1 flex items-center text-center rounded-[30px]">
               + $28,900
             </p>
             <p className="font-[manrope] font-[500] text-[12px] desktop:text-[14px] text-[#757095] mt-[6px]">
@@ -87,7 +87,7 @@ function FeatureTop(props) {
         <div className="hidden desktop:flex items-center gap-4 bg-white w-[363px] h-[75px] px-5 rounded-[11px] z-10 absolute top-[341px] left-[47px] shadow ">
           <img src={icon4} alt="/" />
           <div className="font-[poppins]">
-            <p className="text-[12px] desktop:text-[16px] font-bold text-[#3734A9] bg-indigo-200 w-[86px] h-[26px] flex items-center rounded-[30px]">
+            <p className="text-[12px] desktop:text-[16px] font-bold text-[#3734A9] bg-indigo-200 w-[86px] h-[26px] flex items-center text-center rounded-[30px]">
               + $28,900
             </p>
             <p className="font-[manrope] font-[500] text-[14px] text-[#757095] mt-[6px]">
