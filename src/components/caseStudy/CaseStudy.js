@@ -56,13 +56,13 @@ function CaseStudy() {
       <div className="font-[manrope] ">
         <h4
           // data-aos="zoom-in"
-          className="max-w-[868px] mt-[187px] mx-auto text-[24px] text-center"
+          className="max-w-[868px] mt-[120px] tablet:mt-[187px] mx-auto text-[24px] text-center"
         >
           Generate The Fastest Profit Ever By Providing To Businesses With 20+
           Types Of Profit Making QR Codes ,{" "}
           <span className="font-bold">In 3 Simple Steps…</span>
         </h4>
-        <div className="max-w-[1200px] mx-auto mt-[100px] flex flex-wrap items-center justify-center gap-10">
+        <div className="max-w-[1200px] mx-auto mt-[70px] tablet:mt-[100px] flex flex-wrap items-center justify-center gap-10">
           {steps.map((step, index) => (
             <Steps
               index={index}
