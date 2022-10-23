@@ -8,10 +8,10 @@ import mark from "../../images/mark.png";
 function FeatureBottom(props) {
   const { phone } = props;
   return (
-    <div className="max-w-[1166px] h-[500px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[100px] mx-auto mt-[250px] bigTablet:mt-[50px] desktop:mt-[148px]">
+    <div className="max-w-[1166px] h-[500px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[100px] mx-auto mobile2:mt-[300px] bigTablet:mt-[50px] desktop:mt-[148px]">
       <div
         data-aos="fade-right"
-        className="font-[manrope] mt-14 bigTablet:mt-0 w-[290px] desktop:w-[450px] desktop:h-[469px]"
+        className="font-[manrope] mt-14  mobile2:mt-0 w-[290px] desktop:w-[450px] desktop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
         <h4 className="text-[26px] desktop:text-[40px] font-[800] mt-[13px] leading-[30px] desktop:leading-[50px] ">
