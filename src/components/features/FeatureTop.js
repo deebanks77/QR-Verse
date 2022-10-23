@@ -17,7 +17,9 @@ function FeatureTop(props) {
       <div
         data-aos="fade-right"
         className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] ${
-          background === "black" ? "mt-[300px] bigTablet:mt-[0] " : ""
+          background === "black"
+            ? "mt-[220px] tablet:mt-[220px] bigTablet:mt-[0] "
+            : ""
         }`}
       >
         <div
