@@ -8,17 +8,20 @@ import mark from "../../images/mark.png";
 function FeatureBottom(props) {
   const { phone } = props;
   return (
-    <div className="max-w-[1166px] h-[500px] flex items-center justify-between gap-[100px] mx-auto mt-[148px]">
-      <div data-aos="fade-right" className="font-[manrope] w-[490px] h-[469px]">
+    <div className="max-w-[1166px] h-[500px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[100px] mx-auto mt-[250px] bigTablet:mt-[50px] desktop:mt-[148px]">
+      <div
+        data-aos="fade-right"
+        className="font-[manrope] w-[290px] desktop:w-[450px] desktop:h-[469px]"
+      >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
-        <h4 className="text-[45px] font-[800] mt-[13px] leading-[50px] ">
+        <h4 className="text-[26px] desktop:text-[40px] font-[800] mt-[13px] leading-[30px] desktop:leading-[50px] ">
           Save money with proper transaction
         </h4>
-        <p className="mt-[29px] text-[18px] font-[500] w-[456px]">
+        <p className="mt-[18px] desktop:mt-[29px] text-[14px] desktop:text-[18px] font-[500]">
           We so opinion friends me message as delight. Whole front do of plate
           heard oh ought. His defective nor convinced residence own.
         </p>
-        <div className="relative font-[manrope] font-[600] mt-[35px] w-[479px] h-[152px] bg-[#C4C4C4] flex flex-col items-center justify-center rounded-[20px]">
+        <div className="relative font-[manrope] font-[600] px-5 py-5 mt-[35px] desktop:w-[479px] desktop:h-[152px] bg-[#C4C4C4] flex flex-col items-center justify-center rounded-[20px]">
           <img src={mark} alt="" className="absolute left-[30px] top-[-20px]" />
           <p className="text-center">
             Wise busy past both park when an ye no. Nay likely her length sooner
@@ -28,22 +31,27 @@ function FeatureBottom(props) {
         </div>
       </div>
 
-      <div data-aos="fade-left" className="relative w-[598px] h-[594px]">
-        <div className="w-[486px] h-[540px] bg-[#DBF1FA] ml-[112px] mt-[54px]"></div>
+      <div
+        data-aos="fade-left"
+        className="relative mt-[70px] bigTablet:mt-[0] w-[290px] desktop:w-[450px] desktop:h-[464px]"
+      >
+        <div className="w-[220px] h-[300px] desktop:w-[400px] desktop:h-[410px] bg-[#DBF1FA] ml-[50px] mt-[54px] rounded-md"></div>
         <img
           src={`${phone === "green" ? phones2 : phones}`}
           alt="phone"
-          className="absolute top-[-15px] left-[150px]"
+          className="absolute  top-[-15px] right-[-20px] desktop:left-[50px]"
         />
-        <div className="bg-[white] w-[300px] h-[236px] pt-[10px] absolute bottom-[30px] left-0 font-[manrope]">
-          <p className="text-[20px] font-[500] ml-[20px]">Total Balance</p>
-          <p className="text-[22px] font-[700] ml-[20px]">
-            $4,200 <span className="text-[#00E1F0] text-[18px]">+10%</span>
+        <div className=" bg-[white] w-[200px] h-[130px] desktop:w-[300px] desktop:h-[236px] pt-[10px] absolute bottom-[30px] left-0 font-[manrope]">
+          <p className="text-[16px] desktop:text-[20px] font-[500] ml-[20px]">
+            Total Balance
+          </p>
+          <p className="text-[16px] desktop:text-[22px] font-[700] ml-[20px]">
+            $4,200 <span className="text-[#00E1F0] text-[16px]">+10%</span>
           </p>
           <img
             src={barChart}
             alt="/"
-            className="absolute top-[90px] left-[30px]"
+            className="absolute bottom-[5px] right-[10px] w-[150px] h-[70px]"
           />
         </div>
       </div>

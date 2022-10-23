@@ -11,14 +11,17 @@ function CaseStudy() {
     { num: "03", type: "Profit", color: "#FDBC64" },
   ];
   return (
-    <div>
-      <div className="w-[1200px] h-[900px] mx-auto mt-[120px] px-[88px] py-[60px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
-        <h4 data-aos="zoom-out" className="text-[55px] font-[800]">
+    <div className="px-[40px] tablet:px-[80px]">
+      <div className="max-w-[1000px] mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
+        <h4
+          data-aos="zoom-out"
+          className="text-[24px] tablet:text-[30px] midTablet:text-[34px] bigTablet:text-[38px] laptop:text-[40px] desktop:text-[45px] font-[800]"
+        >
           CASE STUDY
         </h4>
         <p
           data-aos="zoom-out"
-          className="text-[30px] font-[700] mt-[21px] w-[835px]"
+          className="tablet:text-[18px] midTablet:text-[20px] desktop:text-[26px] font-[500] tablet:font-[700] mt-[21px]"
         >
           Prabir A Beta tester Used QRverse To Easily{" "}
           <span className="text-[#FFB865]">
@@ -28,9 +31,13 @@ function CaseStudy() {
         </p>
         <div
           data-aos="zoom-out"
-          className="relative w-[385px] h-[465px] mt-[121px]"
+          className="relative w-[325px] h-[325px] tablet:w-[225px] tablet:h-[305px] midTablet:w-[275px] midTablet:h-[325px] laptop:w-[325px] laptop:h-[405px] mt-[40px] tablet:mt-[80px] mx-auto tablet:mx-[initial]"
         >
-          <img src={manImage} alt="man" className="w-[100%] h-[100%]" />
+          <img
+            src={manImage}
+            alt="man"
+            className="w-[100%] h-[100%] object-contain"
+          />
           <img
             src={youtubeIcon}
             alt="youtube"
@@ -42,20 +49,20 @@ function CaseStudy() {
           data-aos-delay="300"
           src={graph}
           alt="graph"
-          className="absolute top-[380px] left-[500px] w-[800px] h-[400px] object-contain"
+          className="absolute mobile:invisible tablet:visible top-[300px] right-[-60px] w-[300px] midTablet:w-[400px] laptop:top-[260px] laptop:right-[-30px] desktop:top-[330px] desktop:right-[-150px] laptop:w-[450px] laptop:h-[300px] desktop:w-[700px] desktop:h-[300px] object-contain"
         />
       </div>
 
       <div className="font-[manrope] ">
         <h4
           // data-aos="zoom-in"
-          className="w-[868px] mt-[187px] mx-auto text-[24px] text-center"
+          className="max-w-[868px] mt-[187px] mx-auto text-[24px] text-center"
         >
           Generate The Fastest Profit Ever By Providing To Businesses With 20+
           Types Of Profit Making QR Codes ,{" "}
           <span className="font-bold">In 3 Simple Steps…</span>
         </h4>
-        <div className="max-w-[1200px] mx-auto mt-[100px] flex items-center gap-10">
+        <div className="max-w-[1200px] mx-auto mt-[100px] flex flex-wrap items-center justify-center gap-10">
           {steps.map((step, index) => (
             <Steps
               index={index}
