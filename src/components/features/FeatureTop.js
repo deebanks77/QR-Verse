@@ -10,7 +10,7 @@ function FeatureTop(props) {
   const { background } = props;
   return (
     <div
-      className={`max-w-[1166px] flex flex-col bigTablet:flex-row items-center justify-center gap-[20px] mobile2:gap-[40px] bigTablet:gap-[100px] ${
+      className={`max-w-[1166px] flex flex-col bigTablet:flex-row items-center justify-center gap-[20px] mobile2:gap-[30px] bigTablet:gap-[100px] ${
         background === "black" ? "mt-[40px] " : "mt-[80px]"
       } desktop:mt-[140px] mx-auto`}
     >
@@ -18,7 +18,7 @@ function FeatureTop(props) {
         data-aos="fade-right"
         className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] ${
           background === "black"
-            ? "mt-[220px] tablet:mt-[220px] bigTablet:mt-[0] "
+            ? "mt-[180px] tablet:mt-[190px] bigTablet:mt-[0] "
             : ""
         }`}
       >
