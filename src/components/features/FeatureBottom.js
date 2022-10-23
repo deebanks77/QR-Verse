@@ -11,7 +11,7 @@ function FeatureBottom(props) {
     <div className="max-w-[1166px] h-[500px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[100px] mx-auto mt-[250px] bigTablet:mt-[50px] desktop:mt-[148px]">
       <div
         data-aos="fade-right"
-        className="font-[manrope] w-[290px] desktop:w-[450px] desktop:h-[469px]"
+        className="font-[manrope] mt-14 bigTablet:mt-0 w-[290px] desktop:w-[450px] desktop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
         <h4 className="text-[26px] desktop:text-[40px] font-[800] mt-[13px] leading-[30px] desktop:leading-[50px] ">
@@ -33,13 +33,13 @@ function FeatureBottom(props) {
 
       <div
         data-aos="fade-left"
-        className="relative mt-[70px] bigTablet:mt-[0] w-[290px] desktop:w-[450px] desktop:h-[464px]"
+        className="relative bigTablet:mt-[0] w-[290px] desktop:w-[450px] desktop:h-[464px]"
       >
         <div className="w-[220px] h-[300px] desktop:w-[400px] desktop:h-[410px] bg-[#DBF1FA] ml-[50px] mt-[54px] rounded-md"></div>
         <img
           src={`${phone === "green" ? phones2 : phones}`}
           alt="phone"
-          className="absolute  top-[-15px] right-[-20px] desktop:left-[50px]"
+          className="absolute  top-[-15px] right-[-5px] desktop:left-[50px]"
         />
         <div className=" bg-[white] w-[200px] h-[130px] desktop:w-[300px] desktop:h-[236px] pt-[10px] absolute bottom-[30px] left-0 font-[manrope]">
           <p className="text-[16px] desktop:text-[20px] font-[500] ml-[20px]">
