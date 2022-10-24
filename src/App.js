@@ -4,7 +4,7 @@ import CaseStudy from "./components/caseStudy/CaseStudy";
 import Discover from "./components/discover/Discover";
 import Faq from "./components/faq/Faq";
 import Features from "./components/features/Features";
-import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import WaysToUse from "./components/waysToUse/WaysToUse";
 import Footer from "./components/footer/Footer";
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="bg-[#EEF2FF] w-full min-h-[100%] relative overflow-hidden">
-      <Header />
+      <Navbar />
       <Hero />
       <CaseStudy />
       <Features />

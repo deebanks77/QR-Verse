@@ -11,7 +11,7 @@ function CaseStudy() {
     { num: "03", type: "Profit", color: "#FDBC64" },
   ];
   return (
-    <div className="px-[40px] tablet:px-[80px]">
+    <div className="px-[10px] tablet:px-[80px]">
       <div className="max-w-[1000px] mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
         <h4
           data-aos="zoom-out"

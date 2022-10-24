@@ -24,7 +24,7 @@ function Faq() {
         <Cards handleShow={handleShow} state={state} />
 
         <div
-          data-aos="flip-right"
+          data-aos="zoom-out"
           data-aos-delay="300"
           className="relative midTablet:w-[320px] laptop:max-w-[455px]  p-9 bg-[#1FBAEA] rounded-[11px]"
         >

@@ -33,8 +33,8 @@ function Footer() {
         </div>
 
         <div className="flex gap-7 tablet:gap-16 basis-[30%]">
-          <div className=" font-[inter]">
-            <h4 className="font-[inter] font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
+          <div className=" font-[poppins]">
+            <h4 className="font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
               Company
             </h4>
             <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
@@ -48,11 +48,11 @@ function Footer() {
             </p>
           </div>
 
-          <div className="font-[inter]">
+          <div className="font-[poppins]">
             <h4 className="font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
               Product
             </h4>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] font-[inter] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               QR Verse
             </p>
             <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">

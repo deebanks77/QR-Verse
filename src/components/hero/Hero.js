@@ -7,7 +7,7 @@ import markIcon from "../../images/mark.png";
 function Hero() {
   return (
     <div className="w-full">
-      <div className="font-[poppins] max-w-[1200px] mx-auto mt-[50px] desktop:mt-[50px] px-10">
+      <div className="font-[poppins] max-w-[1200px] mx-auto mt-[50px] desktop:mt-[50px] px-3 tablet:px-10">
         <div className="bigTablet:flex items-center gap-16">
           <div
             data-aos="zoom-in"
@@ -18,7 +18,7 @@ function Hero() {
               Optimize Your <span className="text-[#4361EE]">Business</span>{" "}
               With Our Premium Solution
             </h4>
-            <p className="font-[manrope] text-center bigTablet:text-left bigTablet:text-[18px] laptop:text-[20px] desktop:text-[24px] mt-[32px]">
+            <p className="font-[manrope] text-center bigTablet:text-left bigTablet:text-[18px] laptop:text-[20px] desktop:text-[24px] mt-[26px] tablet:mt-[32px]">
               Make Profits With QR Codes In Front Of 1+ Billion Smartphones In
               60 Seconds Or Less
             </p>
@@ -52,7 +52,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="w-full h-fit desktop:h-[462px] bg-[#E2E8FB] p-[20px] mt-[50px] tablet:mt-[80px]">
+      <div className="w-full h-fit desktop:h-[462px] bg-[#E2E8FB] px-[10px] tablet:p-[20px] mt-[50px] tablet:mt-[80px]">
         <div className="flex flex-col desktop:flex-row items-center laptop:justify-between gap-10 max-w-[1200px] mx-auto desktop:h-[462px] py-4 px-4">
           <div data-aos="zoom-in" className="font-[manrope] text-center">
             {" "}
@@ -74,7 +74,7 @@ function Hero() {
 
           <div className="flex flex-col midTablet:flex-row items-center gap-6">
             <div
-              data-aos="flip-right"
+              data-aos="zoom-in"
               data-aos-delay="150"
               className="relative w-fit laptop:w-[450px] desktop:h-[179px] desktop:w-[350px]  bg-white text-[15px] font-[600] px-[34px] py-[38px] rounded-[20px]"
             >
@@ -91,7 +91,7 @@ function Hero() {
               />
             </div>
             <div
-              data-aos="flip-right"
+              data-aos="zoom-in"
               data-aos-delay="300"
               className="relative w-fit laptop:w-[450px] desktop:w-[350px] desktop:h-[179px] bg-white text-[15px] font-[600] px-[34px] py-[38px] rounded-[20px] mt-4 midTablet:mt-0"
             >

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import QRVerseLogo from "../../images/QRVerseLogo.png";
-import "./Header.css";
+import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { ImCancelCircle } from "react-icons/im";
+import { AiOutlineClose } from "react-icons/ai";
 
-function Header() {
+function Navbar() {
   const [click, setClick] = useState(false);
   const handleHamburger = () => {
     setClick(true);
@@ -49,9 +49,9 @@ function Header() {
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-[0px] right-[0px] w-[50%] h-[80%] bg-gray-700 transition-all duration-500 z-10`}
       >
-        <ImCancelCircle
+        <AiOutlineClose
           onClick={handleClose}
-          className={`absolute top-[5px] right-[5px] text-white`}
+          className={`absolute top-[5px] right-[5px] text-white w-[30px] h-[30px]`}
         />
         <div className="flex items-center text-gray-200">
           <ul className="flex items-center flex-col gap-10 ">
@@ -73,4 +73,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Navbar;
