@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import QRVerseLogo from "../../images/QRVerseLogo.png";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
 import "./Header.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { ImCancelCircle } from "react-icons/im";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -39,7 +39,7 @@ function Header() {
           What's New!
         </span>
       </div>
-      <MenuIcon
+      <GiHamburgerMenu
         onClick={handleHamburger}
         className="hamburger cursor-pointer"
       />
@@ -49,7 +49,7 @@ function Header() {
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-[0px] right-[0px] w-[50%] h-[80%] bg-gray-700 transition-all duration-500 z-10`}
       >
-        <CloseIcon
+        <ImCancelCircle
           onClick={handleClose}
           className={`absolute top-[5px] right-[5px] text-white`}
         />
