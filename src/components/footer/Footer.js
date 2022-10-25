@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className="mt-[172px] flex items-center justify-center border-t border-t-[#909090] w-full p-10 desktop:p-5">
+    <div className="mt-[172px] flex items-center justify-center border-t border-t-[#909090] w-full  p-5 tablet:p-10">
       <div className="w-full max-w-[1293px] flex flex-wrap gap-5  mobile:justify-between desktop:flex-nowrap desktop:justify-center  items-start mx-auto">
         <div className="basis-[30%]">
           <div className="w-[91px] h-[34px] mb-[16px]">
@@ -33,35 +33,35 @@ function Footer() {
         </div>
 
         <div className="flex gap-7 tablet:gap-16 basis-[30%]">
-          <div className=" font-[poppins]">
-            <h4 className="font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
+          <div className=" font-[inter]">
+            <h4 className=" font-[600] mobile:text-[16px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
               Company
             </h4>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               About Us
             </p>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               Careers
             </p>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               Blog
             </p>
           </div>
 
-          <div className="font-[poppins]">
-            <h4 className="font-[600] mobile:text-[17px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
+          <div className="font-[inter]">
+            <h4 className="font-[600] mobile:text-[16px] tablet:text-[23px] mobile:mb-[5px] tablet:mb-[26px] cursor-pointer hover:opacity-80">
               Product
             </h4>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               QR Verse
             </p>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               AIWA
             </p>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px]] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               Introverse
             </p>
-            <p className="font-[400] mobile:text-[14px] tablet:text-[17px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
+            <p className="font-[400] mobile:text-[14px] tablet:text-[15px] text-[#1D2132] mobile:mb-[5px] tablet:mb-[20px] cursor-pointer hover:opacity-80">
               Stori
             </p>
           </div>

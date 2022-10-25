@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import QRVerseLogo from "../../images/QRVerseLogo.png";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineClose } from "react-icons/ai";
+import { VscClose } from "react-icons/vsc";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -49,9 +49,9 @@ function Navbar() {
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-[0px] right-[0px] w-[50%] h-[80%] bg-gray-700 transition-all duration-500 z-10`}
       >
-        <AiOutlineClose
+        <VscClose
           onClick={handleClose}
-          className={`absolute top-[5px] right-[5px] text-white w-[30px] h-[30px]`}
+          className={`absolute top-[5px] right-[5px] text-white`}
         />
         <div className="flex items-center text-gray-200">
           <ul className="flex items-center flex-col gap-10 ">

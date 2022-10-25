@@ -12,7 +12,7 @@ function Faq() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="font-[manrope] px-10 mx-auto laptop:max-w-[900px] desktop:max-w-[1100px] ">
+    <div className="font-[manrope] px-10 mx-auto laptop:max-w-[1000px] desktop:max-w-[1200px] ">
       <h4
         data-aos="zoom-out"
         className="w-[500px] font-[800] text-[35px] midTablet:text-[40px] laptop:text-[50px] desktop:text-[56px] leading-[50px] mt-[100px] tablet:mt-[175px] mb-[45px]"
@@ -20,13 +20,13 @@ function Faq() {
         Fequently <span className="block">asked questions</span>
       </h4>
 
-      <div className="flex flex-col midTablet:flex-row midTablet:items-center gap-16">
+      <div className="flex flex-col midTablet:flex-row midTablet:items-center gap-7 laptop:gap-16">
         <Cards handleShow={handleShow} state={state} />
 
         <div
           data-aos="zoom-out"
           data-aos-delay="300"
-          className="relative midTablet:w-[320px] laptop:max-w-[455px]  p-9 bg-[#1FBAEA] rounded-[11px]"
+          className="relative midTablet:w-[320px] laptop:max-w-[455px]  p-9 bg-[#1FBAEA] rounded-[11px] basis-[40%]"
         >
           <img
             src={spiral}
@@ -34,7 +34,7 @@ function Faq() {
             className="absolute right-[10px] top-[-50px]"
           />
           <img src={blackboxIcon} alt="/" className="mt-[75px] mx-auto" />
-          <h4 className="font-[800] text-[20px] laptop:text-[24px] text-center mt-[50px] laptop:mt-[63px]">
+          <h4 className="font-[800] text-[20px] laptop:text-[24px] text-center mt-[50px] laptop:mt-[63px] leading-[24px]">
             Do you have more questions?
           </h4>
           <p className="mt-[26px] text-center text-[16px] laptop:text-[18px] font-[600]">

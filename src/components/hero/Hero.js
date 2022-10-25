@@ -34,7 +34,7 @@ function Hero() {
             </div>
           </div>
           <div
-            data-aos="fade-left"
+            data-aos="zoom-in"
             data-aos-duration="1000"
             className="mt-10 pb-4 bigTablet:w-[400px] bigTablet:h-[350px] laptop:w-[500px] laptop:h-[400px] desktop:w-[700px] desktop:h-[500px] bg-white relative rounded-[8px] basis-[50%]"
           >
