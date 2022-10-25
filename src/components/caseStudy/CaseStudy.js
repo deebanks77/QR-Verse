@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import manImage from "../../images/youtubeImage.png";
 import youtubeIcon from "../../images/youtube.png";
 import graph from "../../images/graph.png";
 import Steps from "./Steps";
+import "./CaseStudy.css";
 
 function CaseStudy() {
   const steps = [
@@ -10,8 +11,17 @@ function CaseStudy() {
     { num: " 02", type: "Share", color: "#FF7F5C" },
     { num: "03", type: "Profit", color: "#FDBC64" },
   ];
+
+  const [embedVideo, setEmbedVideo] = useState("");
+  const handlePlay = () => {
+    setEmbedVideo("G4syHs3M82E");
+  };
+  const handleStop = () => {
+    setEmbedVideo("");
+  };
+
   return (
-    <div className="px-[10px] tablet:px-[80px]">
+    <div className="px-[10px] tablet:px-[80px] relative">
       <div className="max-w-[1000px] mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
         <h4
           data-aos="zoom-out"
@@ -40,8 +50,9 @@ function CaseStudy() {
           />
           <img
             src={youtubeIcon}
+            onClick={handlePlay}
             alt="youtube"
-            className="w-[72px] h-[50px] absolute top-[40%] left-[40%] translate-x-[-50%] translate-y-[-50%]"
+            className="w-[72px] h-[50px] absolute top-[40%] left-[40%] translate-x-[-50%] translate-y-[-50%] cursor-pointer"
           />
         </div>
         <img
@@ -74,8 +85,23 @@ function CaseStudy() {
           ))}
         </div>
       </div>
+      <div className="video-responsive">
+        <iframe
+          width="853"
+          height="480"
+          src={`https://www.youtube.com/embed/${embedVideo}`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
+      </div>
     </div>
   );
 }
 
 export default CaseStudy;
+
+{
+  /* <iframe width="697" height="392" src="https://www.youtube.com/embed/G4syHs3M82E" title="Data Analyst vs Business Analyst | Which Is Right For You?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
+}
