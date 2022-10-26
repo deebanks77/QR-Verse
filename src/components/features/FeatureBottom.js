@@ -10,7 +10,7 @@ function FeatureBottom(props) {
   return (
     <div className="max-w-[1166px] h-[500px] flex flex-col bigTablet:flex-row items-center justify-center gap-[40px] bigTablet:gap-[100px] mx-auto mt-[220px] mobile2:mt-[240px] bigTablet:mt-[50px] desktop:mt-[148px] px-5">
       <div
-        data-aos="zoom-in"
+        // data-aos="zoom-in"
         className="font-[manrope] mt-[15px] mobile2:mt-[25px]  bigTablet:mt-0 bigTablet:p-0  mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] desktop:w-[450px] desktop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
@@ -36,7 +36,7 @@ function FeatureBottom(props) {
       </div>
 
       <div
-        data-aos="zoom-in"
+        // data-aos="zoom-in"
         className="relative bigTablet:mt-[0] w-[290px] desktop:w-[450px] desktop:h-[464px]"
       >
         <div className="w-[220px] h-[300px] desktop:w-[400px] desktop:h-[410px] bg-[#DBF1FA] ml-[50px] mt-[54px] rounded-md"></div>

@@ -15,7 +15,7 @@ function FeatureTop(props) {
       } desktop:mt-[140px] mx-auto px-5`}
     >
       <div
-        data-aos="zoom-in"
+        // data-aos="zoom-in"
         className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] mt-[10px] ${
           background === "black" ? "bigTablet:mt-[0] " : ""
         }`}
@@ -96,7 +96,7 @@ function FeatureTop(props) {
       </div>
 
       <div
-        data-aos="zoom-in"
+        // data-aos="zoom-in"
         className="font-[manrope] flex flex-col justify-center mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] desktop:w-[450px] desktop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>

@@ -54,7 +54,7 @@ function Hero() {
 
       <div className="w-full h-fit desktop:h-[462px] bg-[#E2E8FB] px-[10px] tablet:p-[20px] mt-[50px] tablet:mt-[80px]">
         <div className="flex flex-col desktop:flex-row items-center laptop:justify-between gap-10 max-w-[1200px] mx-auto desktop:h-[462px] py-4 px-4">
-          <div data-aos="zoom-in" className="font-[manrope] text-center">
+          <div className="font-[manrope] text-center">
             {" "}
             {/*w-[481px] */}
             <h4 className=" font-[800] text-[18px] mobile2:text-[20px] tablet:text-[28px] midTablet:text-[30px] bigTablet:text-[34px] laptop:text-[40px] desktop:text-[56px] text-center desktop:text-left   leading-[120%]">
@@ -74,8 +74,8 @@ function Hero() {
 
           <div className="flex flex-col midTablet:flex-row items-center gap-6">
             <div
-              data-aos="zoom-in"
-              data-aos-delay="150"
+              // data-aos="zoom-in"
+              // data-aos-delay="150"
               className="relative w-fit laptop:w-[450px] desktop:h-[179px] desktop:w-[350px]  bg-white text-[15px] font-[600] px-[34px] py-[38px] rounded-[20px]"
             >
               <p className="mb-[18px]">
@@ -91,8 +91,8 @@ function Hero() {
               />
             </div>
             <div
-              data-aos="zoom-in"
-              data-aos-delay="300"
+              // data-aos="zoom-in"
+              // data-aos-delay="300"
               className="relative w-fit laptop:w-[450px] desktop:w-[350px] desktop:h-[179px] bg-white text-[15px] font-[600] px-[34px] py-[38px] rounded-[20px] mt-4 midTablet:mt-0"
             >
               <p className="mb-[18px]">
