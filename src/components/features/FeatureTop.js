@@ -10,7 +10,7 @@ function FeatureTop(props) {
   const { background } = props;
   return (
     <div
-      className={`max-w-[1166px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[20px] mobile2:gap-[30px] bigTablet:gap-[100px] ${
+      className={`max-w-[1166px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[30px] bigTablet:gap-[100px] ${
         background === "black" ? "mt-[270px] bigTablet:mt-[40px] " : "mt-[40px]"
       } desktop:mt-[140px] mx-auto px-5`}
     >
