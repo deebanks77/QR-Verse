@@ -16,8 +16,8 @@ function FeatureTop(props) {
     >
       <div
         data-aos="zoom-in"
-        className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] ${
-          background === "black" ? "mt-[10px] bigTablet:mt-[0] " : ""
+        className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] mt-[10px] ${
+          background === "black" ? "bigTablet:mt-[0] " : ""
         }`}
       >
         <div
