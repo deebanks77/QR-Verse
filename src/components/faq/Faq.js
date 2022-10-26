@@ -20,13 +20,13 @@ function Faq() {
         Fequently <span className="block">asked questions</span>
       </h4>
 
-      <div className="flex flex-col midTablet:flex-row midTablet:items-center gap-7 laptop:gap-16">
+      <div className="flex flex-col midTablet:flex-row midTablet:items-start gap-7 laptop:gap-16">
         <Cards handleShow={handleShow} state={state} />
 
         <div
           data-aos="zoom-out"
           data-aos-delay="300"
-          className="relative midTablet:w-[320px] laptop:max-w-[455px]  p-9 bg-[#1FBAEA] rounded-[11px] basis-[40%]"
+          className="relative midTablet:w-[320px] laptop:max-w-[455px]  p-9 mt-6 midTablet:mt-[initial] bg-[#1FBAEA] rounded-[11px] basis-[40%]"
         >
           <img
             src={spiral}

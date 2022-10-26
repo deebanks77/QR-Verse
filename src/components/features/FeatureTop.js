@@ -10,16 +10,14 @@ function FeatureTop(props) {
   const { background } = props;
   return (
     <div
-      className={`max-w-[1166px] flex flex-col bigTablet:flex-row items-center justify-center gap-[20px] mobile2:gap-[30px] bigTablet:gap-[100px] ${
-        background === "black" ? "mt-[40px] " : "mt-[80px]"
-      } desktop:mt-[140px] mx-auto`}
+      className={`max-w-[1166px] flex flex-col-reverse bigTablet:flex-row items-center justify-center gap-[20px] mobile2:gap-[30px] bigTablet:gap-[100px] ${
+        background === "black" ? "mt-[270px] bigTablet:mt-[40px] " : "mt-[40px]"
+      } desktop:mt-[140px] mx-auto px-5`}
     >
       <div
-        data-aos="fade-right"
+        data-aos="zoom-in"
         className={`relative w-[331px] h-[280px] desktop:w-[451px] desktop:h-[460px] ${
-          background === "black"
-            ? "mt-[180px] tablet:mt-[190px] bigTablet:mt-[0] "
-            : ""
+          background === "black" ? "mt-[10px] bigTablet:mt-[0] " : ""
         }`}
       >
         <div
@@ -98,8 +96,8 @@ function FeatureTop(props) {
       </div>
 
       <div
-        data-aos="fade-left"
-        className="font-[manrope] flex flex-col justify-center w-[290px] desktop:w-[450px] desktop:h-[469px]"
+        data-aos="zoom-in"
+        className="font-[manrope] flex flex-col justify-center mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] desktop:w-[450px] desktop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
         <h4 className="text-[26px] desktop:text-[40px] font-[800] desktop:mt-[13px] leading-[30px] desktop:leading-[50px] ">

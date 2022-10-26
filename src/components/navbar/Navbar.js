@@ -41,7 +41,7 @@ function Navbar() {
       </div>
       <GiHamburgerMenu
         onClick={handleHamburger}
-        className="hamburger cursor-pointer"
+        className="hamburger cursor-pointer w-[30px] h-[30px]"
       />
 
       <div
@@ -51,7 +51,7 @@ function Navbar() {
       >
         <VscClose
           onClick={handleClose}
-          className={`absolute top-[5px] right-[5px] text-white`}
+          className={`absolute  cursor-pointer top-[10px] right-[10px] w-[20px] h-[20px] text-white`}
         />
         <div className="flex items-center text-gray-200">
           <ul className="flex items-center flex-col gap-10 ">

@@ -7,7 +7,7 @@ import markIcon from "../../images/mark.png";
 function Hero() {
   return (
     <div className="w-full">
-      <div className="font-[poppins] max-w-[1200px] mx-auto mt-[50px] desktop:mt-[50px] px-3 tablet:px-10">
+      <div className="font-[poppins] max-w-[1200px] mx-auto mt-[50px] desktop:mt-[50px] px-5 tablet:px-10">
         <div className="bigTablet:flex items-center gap-16">
           <div
             data-aos="zoom-in"

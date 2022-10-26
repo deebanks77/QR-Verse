@@ -12,13 +12,15 @@ function CaseStudy() {
     { num: "03", type: "Profit", color: "#FDBC64" },
   ];
 
-  const [embedVideo, setEmbedVideo] = useState("");
+  const [embedVideo, setEmbedVideo] = useState(false);
   const handlePlay = () => {
-    setEmbedVideo("G4syHs3M82E");
+    setEmbedVideo(true);
   };
-  const handleStop = () => {
-    setEmbedVideo("");
-  };
+  window.addEventListener("click", function (event) {
+    if (event.target.id !== "youtubeIcon") {
+      setEmbedVideo(false);
+    }
+  });
 
   return (
     <div className="px-[10px] tablet:px-[80px] relative">
@@ -52,6 +54,7 @@ function CaseStudy() {
             src={youtubeIcon}
             onClick={handlePlay}
             alt="youtube"
+            id="youtubeIcon"
             className="w-[72px] h-[50px] absolute top-[40%] left-[40%] translate-x-[-50%] translate-y-[-50%] cursor-pointer"
           />
         </div>
@@ -62,6 +65,20 @@ function CaseStudy() {
           alt="graph"
           className="absolute mobile:invisible tablet:visible top-[300px] right-[-60px] w-[300px] midTablet:w-[400px] laptop:top-[260px] laptop:right-[-30px] desktop:top-[330px] desktop:right-[-150px] laptop:w-[450px] laptop:h-[300px] desktop:w-[700px] desktop:h-[300px] object-contain"
         />
+        {embedVideo && (
+          <div className="video-responsive absolute top-0 left-0 w-[93%] bigTablet:w-[95%]">
+            <iframe
+              width="853"
+              height="480"
+              src={`https://www.youtube.com/embed/G4syHs3M82E`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+              className="mx-auto"
+            />
+          </div>
+        )}
       </div>
 
       <div className="font-[manrope] ">
@@ -84,17 +101,6 @@ function CaseStudy() {
             />
           ))}
         </div>
-      </div>
-      <div className="video-responsive">
-        <iframe
-          width="853"
-          height="480"
-          src={`https://www.youtube.com/embed/${embedVideo}`}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Embedded youtube"
-        />
       </div>
     </div>
   );

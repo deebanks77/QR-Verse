@@ -11,10 +11,14 @@ function WaysToUse() {
         There Are A Few Other Dozen Ways You Could Use{" "}
         <span className="text-[#0490EC]">QR Codes</span> For ...
       </h2>
-      <div className="grid grid-cols-3 gap-12 max-w-[1000px] px-10 mx-auto mt-[85px]">
+      <div
+        className={`grid grid-cols-2 tablet:grid-cols-3 gap-12 max-w-[1000px] px-10 mx-auto mt-[85px]`}
+      >
         <Box />
         <Box />
-        <Box />
+        <div className="hidden tablet:inline-block">
+          <Box />
+        </div>
       </div>
     </div>
   );

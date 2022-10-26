@@ -15,7 +15,7 @@ function Features() {
         data-aos="zoom-out"
         src={robotHandIcon}
         alt="/"
-        className="hidden tablet:inline-block absolute top-[-30px] tablet:top-[-60px] desktop:top-[-120px] right-[-40px] w-[222px] h-[230px]  desktop:w-[372px] desktop:h-[390px] object-contain"
+        className="hidden midTablet:inline-block absolute top-[-30px] tablet:top-[-60px] desktop:top-[-120px] right-[-40px] w-[222px] h-[230px]  desktop:w-[372px] desktop:h-[390px] object-contain"
       />
       <FeatureTop />
       <FeatureBottom />
