@@ -22,9 +22,7 @@ function Cards({ handleShow, state }) {
         </div>
         {!state[0] && (
           <p
-            className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] ${
-              !state[0] ? "inline-block animate-opacity" : "hidden"
-            }`}
+            className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
             QR Verse is the World's First QR Code Builder Which Lets You Create,
             Share And Profit From 20+ Types Of QR Codes In 60 Seconds Or Less…
@@ -51,9 +49,7 @@ function Cards({ handleShow, state }) {
         </div>
         {state[1] && (
           <p
-            className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] ${
-              state[1] ? "inline-block animate-opacity" : "hidden"
-            }`}
+            className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
             QR Verse is the World's First QR Code Builder Which Lets You Create,
             Share And Profit From 20+ Types Of QR Codes In 60 Seconds Or Less…
@@ -80,9 +76,7 @@ function Cards({ handleShow, state }) {
         </div>
         {state[2] && (
           <p
-            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] ${
-              state[2] ? "inline-block animate-opacity" : "hidden"
-            }`}
+            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
             QR Verse is the World's First QR Code Builder Which Lets You Create,
             Share And Profit From 20+ Types Of QR Codes In 60 Seconds Or Less…
@@ -110,9 +104,7 @@ function Cards({ handleShow, state }) {
         </div>
         {state[3] && (
           <p
-            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] ${
-              state[3] ? "inline-block animate-opacity" : "hidden"
-            }`}
+            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
             QR Verse is the World's First QR Code Builder Which Lets You Create,
             Share And Profit From 20+ Types Of QR Codes In 60 Seconds Or Less…
@@ -139,9 +131,7 @@ function Cards({ handleShow, state }) {
         </div>
         {state[4] && (
           <p
-            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] ${
-              state[4] ? "inline-block animate-opacity" : "hidden"
-            }`}
+            className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
             QR Verse is the World's First QR Code Builder Which Lets You Create,
             Share And Profit From 20+ Types Of QR Codes In 60 Seconds Or Less…
