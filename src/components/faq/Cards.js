@@ -16,7 +16,7 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-1"
-            onClick={handleShow}
+            onClick={(e) => handleShow(e)}
             className="cursor-pointer"
           />
         </div>
@@ -43,7 +43,7 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-2"
-            onClick={handleShow}
+            onClick={(e) => handleShow(e)}
             className="cursor-pointer"
           />
         </div>
@@ -70,7 +70,7 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-3"
-            onClick={handleShow}
+            onClick={(e) => handleShow(e)}
             className="cursor-pointer"
           />
         </div>
@@ -98,7 +98,7 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-4"
-            onClick={handleShow}
+            onClick={(e) => handleShow(e)}
             className="cursor-pointer"
           />
         </div>
@@ -125,7 +125,7 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-5"
-            onClick={handleShow}
+            onClick={(e) => handleShow(e)}
             className="cursor-pointer"
           />
         </div>
