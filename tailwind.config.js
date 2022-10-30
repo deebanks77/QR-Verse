@@ -9,7 +9,9 @@ module.exports = {
       tablet: "640px",
       midTablet: "760px",
       bigTablet: "860px",
-      laptop: "1024px",
+      laptop: "1040px",
+      laptop1: "1124px",
+      laptop2: "1200px",
       desktop: "1350px",
     },
     extend: {

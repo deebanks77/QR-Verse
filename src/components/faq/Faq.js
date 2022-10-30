@@ -1,27 +1,35 @@
-import React, { useReducer } from "react";
+import React, { useState, useReducer } from "react";
 import blackboxIcon from "../../images/blackbox.png";
 import spiral from "../../images/69.png";
-import { initialState, reducer } from "./reducer";
+// import { initialState, reducer } from "./reducer";
 import Cards from "./Cards";
 
 function Faq() {
-  const handleShow = (e) => {
-    dispatch(e.target.id);
+  // const handleShow = (e) => {
+  //   dispatch(e.target.id);
+  // };
+
+  // const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, setState] = useState("state-1");
+  const handleState = (e) => {
+    if (e.target.id === state) {
+      setState("");
+    } else {
+      setState(e.target.id);
+    }
   };
 
-  const [state, dispatch] = useReducer(reducer, initialState);
-
   return (
-    <div className="font-[manrope] px-10 mx-auto laptop:max-w-[1000px] desktop:max-w-[1200px] ">
+    <div className="font-[manrope] px-10 mx-auto laptop:max-w-[1200px] ">
       <h4
         data-aos="zoom-out"
-        className="w-[500px] font-[800] text-[35px] midTablet:text-[40px] laptop:text-[50px] desktop:text-[56px] leading-[50px] mt-[100px] tablet:mt-[175px] mb-[45px]"
+        className="w-[500px] font-[800] text-[35px] midTablet:text-[40px] laptop:text-[50px] leading-[50px] mt-[100px] tablet:mt-[175px] mb-[45px]"
       >
         Fequently <span className="block">asked questions</span>
       </h4>
 
       <div className="flex flex-col midTablet:flex-row midTablet:items-start gap-7 laptop:gap-16">
-        <Cards handleShow={handleShow} state={state} />
+        <Cards handleState={handleState} state={state} />
 
         <div
           data-aos="zoom-out"

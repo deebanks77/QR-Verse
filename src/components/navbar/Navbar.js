@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex items-center justify-between gap-10 pt-[31px] px-3  font-[poppins] max-w-[1200px] mx-auto">
+    <div className="flex items-center justify-between gap-10 pt-[31px] px-5 tablet:px-10  font-[poppins] max-w-[1200px] mx-auto">
       <div className="w-[128px] h-[50px] cursor-pointer">
         <img
           src={QRVerseLogo}
@@ -23,7 +23,7 @@ function Navbar() {
         />
       </div>
 
-      <div className="nav hidden midTablet:flex items-center">
+      <div className="nav hidden bigTablet:flex items-center">
         <ul className="flex items-center gap-10 ">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">Products</li>
@@ -31,7 +31,7 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="what-next hidden midTablet:flex items-center gap-7 ">
+      <div className="what-next hidden bigTablet:flex items-center gap-7 ">
         <span className="text-blue-500 hover:text-blue-700 font-[18px] font-[600] mr-[20px] cursor-pointer">
           Login
         </span>
@@ -41,11 +41,11 @@ function Navbar() {
       </div>
       <GiHamburgerMenu
         onClick={handleHamburger}
-        className="hamburger cursor-pointer w-[30px] h-[30px]"
+        className="hamburger bigTablet:hidden cursor-pointer w-[30px] h-[30px]"
       />
 
       <div
-        className={`fixed flex flex-col items-center justify-center midTablet:hidden gap-10 ${
+        className={`fixed flex flex-col items-center justify-center bigTablet:hidden gap-10 ${
           click ? "translate-x-[0]" : "translate-x-[100%]"
         } top-[0px] right-[0px] w-[50%] h-[80%] bg-gray-700 transition-all duration-500 z-10`}
       >

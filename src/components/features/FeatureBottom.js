@@ -8,24 +8,24 @@ import mark from "../../images/mark.png";
 function FeatureBottom(props) {
   const { phone } = props;
   return (
-    <div className="max-w-[1166px] h-[500px] flex flex-col bigTablet:flex-row items-center justify-center gap-[40px] bigTablet:gap-[100px] mx-auto mt-[220px] mobile2:mt-[240px] bigTablet:mt-[50px] desktop:mt-[148px] px-5">
+    <div className="max-w-[1166px] h-[500px] flex flex-col bigTablet:flex-row items-center justify-center gap-[40px] bigTablet:gap-[100px] mx-auto mt-[220px] mobile2:mt-[240px] tablet:mt-[150px] bigTablet:mt-[50px] laptop:mt-[90px] px-5">
       <div
         // data-aos="zoom-in"
-        className="font-[manrope] mt-[15px] mobile2:mt-[25px]  bigTablet:mt-0 bigTablet:p-0  mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] desktop:w-[450px] desktop:h-[469px]"
+        className="font-[manrope] mt-[15px] mobile2:mt-[25px]  bigTablet:mt-0 bigTablet:p-0  mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] laptop:w-[400px] laptop:h-[469px]"
       >
         <p className="text-[14px] text-[#3734A9] font-[700]">Why Choose Us</p>
-        <h4 className="text-[26px] desktop:text-[40px] font-[800] mt-[13px] leading-[30px] desktop:leading-[50px] ">
+        <h4 className="text-[26px] laptop:text-[35px] font-[800] mt-[13px] leading-[30px] laptop:leading-[40px] ">
           Save money with proper transaction
         </h4>
-        <p className="mt-[18px] desktop:mt-[29px] text-[14px] desktop:text-[18px] font-[500]">
+        <p className="mt-[18px] laptop:mt-[29px] text-[14px] font-[500]">
           We so opinion friends me message as delight. Whole front do of plate
           heard oh ought. His defective nor convinced residence own.
         </p>
-        <div className="relative font-[manrope] font-[600] px-5 py-5 mt-[35px] desktop:w-[479px] desktop:h-[152px] bg-[#C4C4C4] flex flex-col items-center justify-center rounded-[20px]">
+        <div className="relative font-[manrope] font-[600] px-5 py-5 mt-[35px] laptop:w-[420px] laptop:h-[152px] bg-[#C4C4C4] flex flex-col items-center justify-center rounded-[20px]">
           <img
             src={mark}
             alt=""
-            className="absolute w-[30px] h-[30px] desktop:w-[initial] desktop:h-[initial] left-[30px] top-[-15px] desktop:left-[30px] desktop:top-[-20px]"
+            className="absolute w-[30px] h-[30px] left-[30px] top-[-15px]"
           />
           <p className="text-center">
             Wise busy past both park when an ye no. Nay likely her length sooner
@@ -37,19 +37,19 @@ function FeatureBottom(props) {
 
       <div
         // data-aos="zoom-in"
-        className="relative bigTablet:mt-[0] w-[290px] desktop:w-[450px] desktop:h-[464px]"
+        className="relative bigTablet:mt-[0] w-[290px] laptop:w-[450px] laptop:h-[464px]"
       >
-        <div className="w-[220px] h-[300px] desktop:w-[400px] desktop:h-[410px] bg-[#DBF1FA] ml-[50px] mt-[54px] rounded-md"></div>
+        <div className="w-[220px] h-[300px] laptop:w-[350px] laptop:h-[380px] bg-[#DBF1FA] ml-[70px] mt-[24px] rounded-md"></div>
         <img
           src={`${phone === "green" ? phones2 : phones}`}
           alt="phone"
-          className="absolute  top-[-15px] right-[-5px] desktop:left-[50px]"
+          className="absolute  top-[-15px] right-[0px] w-[300px] h-[300px]"
         />
-        <div className=" bg-[white] w-[200px] h-[130px] desktop:w-[300px] desktop:h-[236px] pt-[10px] absolute bottom-[30px] left-0 font-[manrope]">
-          <p className="text-[16px] desktop:text-[20px] font-[500] ml-[20px]">
+        <div className=" bg-[white] w-[200px] h-[130px] laptop:w-[300px] laptop:h-[150px] pt-[10px] absolute bottom-[20px] laptop:bottom-[90px] left-0 font-[manrope]">
+          <p className="text-[16px] laptop:text-[20px] font-[500] ml-[20px]">
             Total Balance
           </p>
-          <p className="text-[16px] desktop:text-[22px] font-[700] ml-[20px]">
+          <p className="text-[16px] laptop:text-[22px] font-[700] ml-[20px]">
             $4,200 <span className="text-[#00E1F0] text-[16px]">+10%</span>
           </p>
           <img

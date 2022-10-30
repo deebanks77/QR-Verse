@@ -23,8 +23,8 @@ function CaseStudy() {
   });
 
   return (
-    <div className="px-[10px] tablet:px-[80px] relative">
-      <div className="max-w-[1000px] mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
+    <div className="px-[10px] relative">
+      <div className="max-w-[1000px] mx-[80px] laptop:mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
         <h4
           data-aos="zoom-out"
           className="text-[24px] tablet:text-[30px] midTablet:text-[34px] bigTablet:text-[38px] laptop:text-[40px] desktop:text-[45px] font-[800]"
@@ -33,7 +33,7 @@ function CaseStudy() {
         </h4>
         <p
           data-aos="zoom-out"
-          className="tablet:text-[18px] midTablet:text-[20px] desktop:text-[26px] font-[500] tablet:font-[700] mt-[21px]"
+          className="tablet:text-[18px] midTablet:text-[20px] laptop:text-[24px] font-[500] tablet:font-[700] mt-[21px]"
         >
           Prabir A Beta tester Used QRverse To Easily{" "}
           <span className="text-[#FFB865]">
@@ -84,13 +84,13 @@ function CaseStudy() {
       <div className="font-[manrope] ">
         <h4
           // data-aos="zoom-in"
-          className="max-w-[868px] mt-[120px] tablet:mt-[187px] mx-auto text-[24px] text-center"
+          className="max-w-[868px] mt-[120px] tablet:mt-[187px] mx-auto text-[20px] bigTablet:text-[24px] text-center px-[10px]"
         >
           Generate The Fastest Profit Ever By Providing To Businesses With 20+
           Types Of Profit Making QR Codes ,{" "}
           <span className="font-bold">In 3 Simple Steps…</span>
         </h4>
-        <div className="max-w-[1200px] mx-auto mt-[70px] tablet:mt-[100px] flex flex-wrap items-center justify-center gap-10">
+        <div className="max-w-[1200px] mx-auto mt-[70px] tablet:mt-[100px] flex flex-wrap items-center justify-center gap-5">
           {steps.map((step, index) => (
             <Steps
               index={index}

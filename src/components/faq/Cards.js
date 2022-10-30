@@ -1,7 +1,7 @@
 import React from "react";
 import plusIcon from "../../images/plus.png";
 
-function Cards({ handleShow, state }) {
+function Cards({ state, handleState }) {
   return (
     <div className="basis-[60%]">
       <div
@@ -16,11 +16,11 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-1"
-            onClick={(e) => handleShow(e)}
+            onClick={(e) => handleState(e)}
             className="cursor-pointer"
           />
         </div>
-        {!state[0] && (
+        {state === "state-1" && (
           <p
             className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
@@ -43,11 +43,11 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-2"
-            onClick={(e) => handleShow(e)}
+            onClick={(e) => handleState(e)}
             className="cursor-pointer"
           />
         </div>
-        {state[1] && (
+        {state === "state-2" && (
           <p
             className={`text-[14px] desktop:text-[16px] mt-[10px]  laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
@@ -70,11 +70,11 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-3"
-            onClick={(e) => handleShow(e)}
+            onClick={(e) => handleState(e)}
             className="cursor-pointer"
           />
         </div>
-        {state[2] && (
+        {state === "state-3" && (
           <p
             className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
@@ -98,11 +98,11 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-4"
-            onClick={(e) => handleShow(e)}
+            onClick={(e) => handleState(e)}
             className="cursor-pointer"
           />
         </div>
-        {state[3] && (
+        {state === "state-4" && (
           <p
             className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
@@ -125,11 +125,11 @@ function Cards({ handleShow, state }) {
             src={plusIcon}
             alt="/"
             id="state-5"
-            onClick={(e) => handleShow(e)}
+            onClick={(e) => handleState(e)}
             className="cursor-pointer"
           />
         </div>
-        {state[4] && (
+        {state === "state-5" && (
           <p
             className={`text-[14px] desktop:text-[16px] mt-[10px] laptop:mt-[15px] desktop:mt-[17px] max-w-[570px] leading-[28px] animate-opacity`}
           >
