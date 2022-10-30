@@ -24,10 +24,10 @@ function CaseStudy() {
 
   return (
     <div className="px-[10px] relative">
-      <div className="max-w-[1000px] mx-[80px] laptop:mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px] laptop:py-[20px] text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
+      <div className="max-w-[900px] laptop2:max-w-[1000px]  mx-[10px] tablet:mx-[60px] laptop:mx-auto mt-[120px] px-[30px] py-[10px] laptop:px-[88px]  text-[white] bg-gradient-to-r from-[#7060EF] to-[#1FBAEA] relative font-[manrope] rounded-[20px]">
         <h4
           data-aos="zoom-out"
-          className="text-[24px] tablet:text-[30px] midTablet:text-[34px] bigTablet:text-[38px] laptop:text-[40px] desktop:text-[45px] font-[800]"
+          className="text-[24px] tablet:text-[30px] midTablet:text-[34px] bigTablet:text-[38px] laptop:text-[40px] font-[800]"
         >
           CASE STUDY
         </h4>
@@ -43,7 +43,7 @@ function CaseStudy() {
         </p>
         <div
           data-aos="zoom-out"
-          className="relative w-[325px] h-[325px] tablet:w-[225px] tablet:h-[305px] midTablet:w-[275px] midTablet:h-[325px] laptop:w-[325px] laptop:h-[405px] mt-[40px] tablet:mt-[80px] mx-auto tablet:mx-[initial]"
+          className="relative w-[325px] h-[325px] tablet:w-[225px] tablet:h-[305px] midTablet:w-[275px] midTablet:h-[325px] laptop:w-[325px] laptop:h-[405px] mt-[40px] bigTablet:mt-[80px] mx-auto tablet:mx-[initial]"
         >
           <img
             src={manImage}
@@ -63,7 +63,7 @@ function CaseStudy() {
           data-aos-delay="300"
           src={graph}
           alt="graph"
-          className="absolute mobile:invisible tablet:visible top-[300px] right-[-60px] w-[300px] midTablet:w-[400px] laptop:top-[260px] laptop:right-[-30px] desktop:top-[330px] desktop:right-[-150px] laptop:w-[450px] laptop:h-[300px] desktop:w-[700px] desktop:h-[300px] object-contain"
+          className="absolute mobile:invisible tablet:visible top-[250px] right-[-30px] w-[300px] midTablet:w-[400px] laptop:top-[300px] laptop:w-[500px] laptop:h-[300px] object-contain"
         />
         {embedVideo && (
           <div className="video-responsive absolute top-0 left-0 w-[93%] bigTablet:w-[95%]">
@@ -107,7 +107,3 @@ function CaseStudy() {
 }
 
 export default CaseStudy;
-
-{
-  /* <iframe width="697" height="392" src="https://www.youtube.com/embed/G4syHs3M82E" title="Data Analyst vs Business Analyst | Which Is Right For You?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
-}
