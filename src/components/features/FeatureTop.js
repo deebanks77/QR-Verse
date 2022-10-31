@@ -49,7 +49,7 @@ function FeatureTop(props) {
           </div>
         </div>
 
-        <div className="flex items-center gap-4 bg-white w-[233px] h-[60px] laptop:w-[363px] px-5 rounded-[11px] z-10 absolute top-[120px] right-[-20px] laptop:top-[141px] laptop:left-[170px] shadow">
+        <div className="flex items-center gap-4 bg-white w-[233px] h-[60px] laptop:w-[363px] px-5 rounded-[11px] z-10 absolute top-[120px] right-[-20px] laptop:top-[131px] laptop:left-[170px] shadow">
           <img src={icon2} alt="/" className="w-[40px] h-[40px]" />
           <div className="font-[poppins]">
             <p className="text-[12px] font-bold text-[#3734A9] bg-indigo-200 px-1 py-1 text-center rounded-[30px]">
@@ -61,7 +61,7 @@ function FeatureTop(props) {
           </div>
         </div>
 
-        <div className="flex items-center gap-4 bg-white w-[233px] h-[60px] laptop:w-[363px] px-5 rounded-[11px] z-10 absolute top-[200px] left-[64px] laptop:top-[241px] laptop:left-[138px] shadow">
+        <div className="flex items-center gap-4 bg-white w-[233px] h-[60px] laptop:w-[363px] px-5 rounded-[11px] z-10 absolute top-[200px] left-[64px] laptop:top-[225px] laptop:left-[138px] shadow">
           <img src={icon3} alt="/" className="w-[40px] h-[40px]" />
           <div className="font-[poppins]">
             <p className="text-[12px] font-bold text-[#3734A9] bg-indigo-200 px-1 py-1 text-center rounded-[30px]">

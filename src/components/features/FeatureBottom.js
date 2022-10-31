@@ -27,7 +27,7 @@ function FeatureBottom(props) {
             alt=""
             className="absolute w-[30px] h-[30px] left-[30px] top-[-15px]"
           />
-          <p className="text-center">
+          <p className="text-center text-[14px]">
             Wise busy past both park when an ye no. Nay likely her length sooner
             thrown sex lively income. The expense windows .
           </p>
