@@ -14,7 +14,7 @@ function FeatureTop(props) {
         background === "black"
           ? "mt-[220px] tablet:mt-[160px] bigTablet:mt-[40px] laptop:mt-[10px] "
           : "mt-[40px] laptop:mt-[60px]"
-      } mx-auto px-5`}
+      } mx-auto px-3 tablet:px-5`}
     >
       <div
         // data-aos="zoom-in"

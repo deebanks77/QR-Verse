@@ -8,7 +8,7 @@ import mark from "../../images/mark.png";
 function FeatureBottom(props) {
   const { phone } = props;
   return (
-    <div className="max-w-[1166px] h-[500px] flex flex-col bigTablet:flex-row items-center justify-center gap-[40px] bigTablet:gap-[100px] mx-auto mt-[220px] mobile2:mt-[240px] tablet:mt-[150px] bigTablet:mt-[50px] laptop:mt-[90px] px-5">
+    <div className="max-w-[1166px] h-[500px] flex flex-col bigTablet:flex-row items-center justify-center gap-[40px] bigTablet:gap-[100px] mx-auto mt-[220px] mobile2:mt-[240px] tablet:mt-[150px] bigTablet:mt-[50px] laptop:mt-[90px] px-3 tablet:px-5">
       <div
         // data-aos="zoom-in"
         className="font-[manrope] mt-[15px] mobile2:mt-[25px]  bigTablet:mt-0 bigTablet:p-0  mx-auto bigTablet:mx-[initial] max-w-[700px] bigTablet:w-[350px] laptop:w-[400px] laptop:h-[469px]"
